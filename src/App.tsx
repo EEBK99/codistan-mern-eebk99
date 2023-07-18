@@ -12,9 +12,9 @@ function App() {
     <>
       <HeroSection />
       <NavSection />
-      {/* <HistorySection /> */}
+      <HistorySection />
       <ClimbSection />
-      {/* <Carousel />` */}
+      {/* <Carousel /> */}
       {/* <ScheduleSection /> */}
       {/* <Footer /> */}
     </>
