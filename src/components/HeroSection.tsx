@@ -5,12 +5,9 @@ import hero from "../assets/images/hero.jpg";
 const HeroSection: React.FC = () => {
   return (
     <section
-      className="bg-cover bg-no-repeat"
+      className="bg-cover bg-no-repeat h-screen w-screen"
       style={{
         backgroundImage: `url(${hero})`,
-        backgroundSize: "cover",
-        height: "100vh",
-        width: "100vw",
       }}
     >
       <div className="flex justify-between items-center py-6 px-10 container mx-auto">
