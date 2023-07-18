@@ -5,6 +5,7 @@ import ClimbSection from "./components/ClimbSection";
 import ScheduleSection from "./components/ScheduleSection";
 import Footer from "./components/Footer";
 import HistorySection from "./components/HistorySection";
+import Carousel from "./components/Carousel";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <NavSection />
       {/* <HistorySection /> */}
       <ClimbSection />
+      {/* <Carousel />` */}
       {/* <ScheduleSection /> */}
       {/* <Footer /> */}
     </>
