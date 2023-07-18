@@ -4,68 +4,7 @@ import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
 
 const Carousel: React.FC = () => {
-  // const options = {
-  //   margin: 20,
-  //   loop: true,
-  //   autoplay: true,
-  //   autoplayTimeout: 2000,
-  //   autoplayHoverPause: true,
-  //   responsive: {
-  //     0: {
-  //       items: 1,
-  //       nav: false,
-  //     },
-  //     600: {
-  //       items: 2,
-  //       nav: false,
-  //     },
-  //     1000: {
-  //       items: 4,
-  //       nav: false,
-  //     },
-  //   },
-  // };
-
-  return (
-    <OwlCarousel className="owl-carousel owl-theme" loop={true} margin={10} nav>
-      <div className="item">
-        <h4>1</h4>
-      </div>
-      <div className="item">
-        <h4>2</h4>
-      </div>
-      <div className="item">
-        <h4>3</h4>
-      </div>
-      <div className="item">
-        <h4>4</h4>
-      </div>
-      <div className="item">
-        <h4>5</h4>
-      </div>
-      <div className="item">
-        <h4>6</h4>
-      </div>
-      <div className="item">
-        <h4>7</h4>
-      </div>
-      <div className="item">
-        <h4>8</h4>
-      </div>
-      <div className="item">
-        <h4>9</h4>
-      </div>
-      <div className="item">
-        <h4>10</h4>
-      </div>
-      <div className="item">
-        <h4>11</h4>
-      </div>
-      <div className="item">
-        <h4>12</h4>
-      </div>
-    </OwlCarousel>
-  );
+  return <>carousel</>;
 };
 
 export default Carousel;
