@@ -14,7 +14,7 @@ function App() {
       <HistorySection />
       <ClimbSection />
       {/* <Carousel /> */}
-      {/* <ScheduleSection /> */}
+      <ScheduleSection />
       <Footer />
     </>
   );
