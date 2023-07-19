@@ -7,6 +7,7 @@ import CustomCarousel from "./CustomCarousel";
 const NavSection: React.FC = () => {
   return (
     <section
+      id="history"
       className="bg-cover bg-center bg-no-repeat h-screen w-full flex flex-col justify-between"
       style={{
         backgroundImage: `url(${peak})`,
@@ -18,9 +19,7 @@ const NavSection: React.FC = () => {
             <div className="text-9xl text-bombay-500 font-bold">01</div>
           </div>
           <div className="flex flex-col justify-end items-star h-full pb-3">
-            <div id="team" className="text-3xl font-bold text-fiord-500">
-              HISTORY
-            </div>
+            <div className="text-3xl font-bold text-fiord-500">HISTORY</div>
             <div className="bg-bombay-500 w-5 h-5"></div>
           </div>
         </div>
