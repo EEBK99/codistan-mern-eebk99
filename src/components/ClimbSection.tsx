@@ -2,7 +2,7 @@ import React from "react";
 
 const ClimbSection: React.FC = () => {
   return (
-    <section className="w-screen h-48 flex justify-center items-center md:px-4 lg:px-72">
+    <section className=" w-full h-48 flex justify-center items-center md:px-4 lg:px-72">
       <div className="flex justify-center align-bottom h-32">
         <div className="flex justify-end items-end h-full">
           <div className="text-9xl text-bombay-500 font-bold">02</div>

@@ -13,7 +13,6 @@ function App() {
       <NavSection />
       <HistorySection />
       <ClimbSection />
-      {/* <Carousel /> */}
       <ScheduleSection />
       <Footer />
     </>

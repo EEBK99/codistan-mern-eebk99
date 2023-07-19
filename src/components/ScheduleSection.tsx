@@ -7,7 +7,7 @@ const ScheduleSection = () => {
       <Tabs>
         <Tab label="Mountain 1">
           <section
-            className="bg-cover bg-no-repeat h-screen w-screen"
+            className="bg-cover bg-no-repeat h-screen  w-full"
             style={{
               backgroundImage: `url(${coverImage})`,
             }}
@@ -39,7 +39,7 @@ const ScheduleSection = () => {
         </Tab>
         <Tab label="Mountain 2">
           <section
-            className="bg-cover bg-no-repeat h-screen w-screen"
+            className="bg-cover bg-no-repeat h-screen  w-full"
             style={{
               backgroundImage: `url(${coverImage})`,
             }}
