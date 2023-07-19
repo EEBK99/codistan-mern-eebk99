@@ -7,12 +7,12 @@ const ScheduleSection = () => {
       <Tabs>
         <Tab label="Mountain 1">
           <section
-            className="bg-cover bg-no-repeat h-screen  w-full"
+            className="bg-cover bg-no-repeat h-screen w-full relative"
             style={{
               backgroundImage: `url(${coverImage})`,
             }}
           >
-            <div className="py-4 px-8 bg-white opacity-80 w-96 top-52 left-80 relative">
+            <div className="py-4 px-8 bg-white opacity-80 w-96 top-[20%] left-[20%] absolute">
               <h4 className="text-3xl font-bold text-fiord-500">SCHEDULE</h4>
               <table className="table table-borderless">
                 <tbody>
@@ -39,7 +39,7 @@ const ScheduleSection = () => {
         </Tab>
         <Tab label="Mountain 2">
           <section
-            className="bg-cover bg-no-repeat h-screen  w-full"
+            className="bg-cover bg-no-repeat h-screen w-full"
             style={{
               backgroundImage: `url(${coverImage})`,
             }}
