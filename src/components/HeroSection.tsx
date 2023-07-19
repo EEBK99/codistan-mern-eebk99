@@ -5,7 +5,7 @@ import hero from "../assets/images/hero.jpg";
 const HeroSection: React.FC = () => {
   return (
     <section
-      className="bg-cover bg-no-repeat h-screen w-full"
+      className="bg-cover bg-center bg-no-repeat h-screen w-full"
       style={{
         backgroundImage: `url(${hero})`,
       }}
