@@ -26,6 +26,14 @@ const CustomCarousel: React.FC = () => {
         items: 4,
         nav: false,
       },
+      1920: {
+        items: 4,
+        nav: false,
+      },
+      2560: {
+        items: 4,
+        nav: false,
+      },
     },
   };
   return (
