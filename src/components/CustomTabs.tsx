@@ -19,14 +19,14 @@ const Tabs: React.FC<TabsProps> = ({ children }) => {
 
   return (
     <div>
-      <div className="flex bg-fiord-500 pl-64">
+      <div className="flex bg-fiord-500 xl:pl-64 lg:pl-64 md:pl-0 sm:pl-0">
         {React.Children.map(children, (child) => {
           const tabChild = child as ReactElement<TabProps>;
           return (
             <div
               className={`${
                 activeTab === tabChild.props.label ? "bg-gray-400" : ""
-              } flex justify-center align-middle h-10 px-5`}
+              } flex xl:flex-none lg:flex-none md:flex-1 sm:flex-1 justify-center align-middle h-10 px-5`}
             >
               <button
                 key={tabChild.props.label}
