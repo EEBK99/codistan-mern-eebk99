@@ -1,4 +1,3 @@
-import "./App.css";
 import HeroSection from "./components/HeroSection";
 import NavSection from "./components/NavSection";
 import ClimbSection from "./components/ClimbSection";
