@@ -4,7 +4,7 @@ import logo3 from "../assets/images/logo3.png";
 const Footer: React.FC = () => {
   return (
     <footer className="bg-fiord-500 w-full">
-      <div className="flex justify-between items-center py-1 px-10 container mx-auto">
+      <div className="flex xl:flex-nowrap lg:flex-nowrap md:flex-wrap sm:flex-wrap xs:flex-wrap justify-between items-center py-1 px-10 container mx-auto">
         <div className="grayscale">
           <img src={logo3} alt="logo1" />
         </div>
