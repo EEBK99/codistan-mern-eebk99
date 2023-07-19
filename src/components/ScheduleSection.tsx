@@ -12,7 +12,7 @@ const ScheduleSection = () => {
               backgroundImage: `url(${coverImage})`,
             }}
           >
-            <div className="py-4 px-8 bg-white opacity-80 w-96 top-[20%] left-[20%] absolute">
+            <div className="py-4 px-8 bg-white opacity-80 w-96 top-[20%] xl:left-[20%] lg:left-[20%] md:left-[20%] sm:left-[15%] xs:left-[10%] absolute">
               <h4 className="text-3xl font-bold text-fiord-500">SCHEDULE</h4>
               <table className="table table-borderless">
                 <tbody>
@@ -44,7 +44,7 @@ const ScheduleSection = () => {
               backgroundImage: `url(${coverImage})`,
             }}
           >
-            <div className="py-4 px-8 bg-white opacity-80 w-96 top-[20%] left-[20%] absolute">
+            <div className="py-4 px-8 bg-white opacity-80 w-96 top-[20%] xl:left-[20%] lg:left-[20%] md:left-[20%] sm:left-[15%] xs:left-[10%] absolute">
               <h4 className="text-3xl font-bold text-fiord-500">SCHEDULE</h4>
               <table className="table table-borderless">
                 <tbody>
